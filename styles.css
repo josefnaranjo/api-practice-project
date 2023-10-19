@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden; /* Hides overflow content */
+}
+
+/* Header styling */
+header {
+    text-align: center; /* Centered text */
+    width: 100vw; /* Full viewport width */
+    height: 8vh; /* 8% of viewport height */
+    padding-top: 10px; /* Top padding */
+    background: lightcoral; /* Background color */
+}
+
+/* Flex container setup */
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+
+.main--options{
+    margin-top: 10px;
+}
+
+/* Search input & button styling */
+.search_input, .btn_search{
+    width: 40vw; /* Input width */
+    height: 6vh; /* Input height */
+    border-radius: 15px; /* Input border radius */
+    border-color: black; /* Input border color */
+    padding: 3px; /* Input padding */
+}
+
+
+/* Define search button style */
+.btn_search {
+    /* Set button width to 15% of viewport width */
+    width: 15vw;
+}
+
+
+/* Define hover effect for search button */
+.btn_search:hover {
+    /* Change background color to white on hover */
+    background-color: white;
+}
+
+/* Set map dimensions */
+#main--map{
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+    background-color: gray;
+}
